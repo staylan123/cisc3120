@@ -88,7 +88,7 @@ import com.kennycason.kumo.font.scale.SqrtFontScalar;
 		final WordCloud wordCloud = new WordCloud(dimension, CollisionMode.PIXEL_PERFECT);
 		wordCloud.setPadding(2);
 		wordCloud.setBackground(new CircleBackground(300));
-		wordCloud.setColorPalette(new ColorPalette(new Color(0x4055F1), new Color(0x408DF1), new Color(0x40AAF1), new Color(0x40C5F1), new Color(0x40D3F1), new Color(0xFFFFFF)));
+		wordCloud.setColorPalette(new ColorPalette(new Color(0xE91515), new Color(0xFF003C), new Color(0xFF9191), new Color(0xFF0000), new Color(0x800909), new Color(0xFFFFFF)));
 		wordCloud.setFontScalar(new SqrtFontScalar(10, 80));
 		wordCloud.build(wordFrequencies);
 		wordCloud.writeToFile("circle.png");
